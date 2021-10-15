@@ -1,18 +1,14 @@
-from typing import Type
-
-
 print("Hallo ik ben vinicius, de maker van dit applicatie.")
-print("\n dit applicatie gaat over '' en wat er met hem is gebeurt")
-print("")
-print("")
+print("\ndit applicatie gaat over Nadja en wat er met haar is gebeurt\n")
 
 print("wat is jouw naam? ")
-x = input("Type hier jouw naam: " + "aangenaam")
+naam = input("Type hier jouw naam: ")
+print(f"aangenaam  {naam}\n")
 
 
-print("")
-print("")
-print("\n")
+print("Nadja komt uit Afghanistan.")
+print("In Afghanistan is er nu oorlog")
+print("Oorlog in Aghanistan bestond al jaren. Het begon in 2001 en eindige pas in 2021.\nAfghanistan heeft nu een dictatuur, het is bezet door de Taliban. \n")
 
 firstLoop = True
 while firstLoop == True:
@@ -33,8 +29,8 @@ while firstLoop == True:
         print("")
         firstLoop = False
 
-waaw = True
-while waaw == True:
+secondloop = True
+while secondloop == True:
     print("")
     print("")
 
@@ -50,11 +46,11 @@ while waaw == True:
         print("")
     elif answer2 == "C" or "c":
         print("")
-        waaw = False
+        secondloop = False
 
 
-derde = True
-while derde == True:
+thirdloop = True
+while thirdloop == True:
     print("")
     print("")
     print("")
@@ -70,4 +66,4 @@ while derde == True:
         print("")
     elif answer3 == "B" or "a":
         print("")
-    print("")
+        thirdloop == False
