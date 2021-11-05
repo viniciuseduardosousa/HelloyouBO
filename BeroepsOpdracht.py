@@ -86,7 +86,7 @@ beginv = input("Begin verhaal? \n Y/N \n" )
 if beginv == 'y':
     os.system('clear')
     print(begin)
-    door = input("\n Wil je door? \n Press enter om door te gaan.")
+    door = input("\n Wil je door? \n Press enter om door te gaan. ")
     if door == "":
         os.system('clear')
         print(begin2)
